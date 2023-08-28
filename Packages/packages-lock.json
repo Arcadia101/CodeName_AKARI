@@ -1,6 +1,7 @@
 {
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.animation.rigging": {
       "version": "1.2.1",
       "depth": 0,
@@ -34,6 +35,17 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+    "com.unity.burst": {
+      "version": "1.8.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
     "com.unity.collab-proxy": {
       "version": "2.0.5",
       "depth": 0,
@@ -110,6 +122,7 @@
       "url": "https://packages.unity.com"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 0,
@@ -133,6 +146,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
 =======
+=======
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
     "com.unity.shadergraph": {
       "version": "14.0.8",
       "depth": 1,
@@ -141,6 +156,9 @@
         "com.unity.render-pipelines.core": "14.0.8",
         "com.unity.searcher": "4.9.2"
       }
+<<<<<<< HEAD
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
+=======
 >>>>>>> parent of 48fd9da (Plantilla Proyecto)
     },
     "com.unity.test-framework": {

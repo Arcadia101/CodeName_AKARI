@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animations/TestMan.meta
 guid: 94b453468569f451f92a2b9260872a8b
 folderAsset: yes
 DefaultImporter:
+========
+guid: e634585d5c4544dd297acaee93dc2beb
+NativeFormatImporter:
+>>>>>>>> parent of 48fd9da (Plantilla Proyecto):Assets/Settings/URP-Balanced-Renderer.asset.meta
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

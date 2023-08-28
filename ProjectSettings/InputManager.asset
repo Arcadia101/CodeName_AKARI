@@ -295,6 +295,7 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Name: Camera
     descriptiveName: 
     descriptiveNegativeName: 
@@ -303,6 +304,8 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: joystick button 8
 =======
+=======
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
     m_Name: Enable Debug Button 1
     descriptiveName: 
     descriptiveNegativeName: 
@@ -438,6 +441,9 @@ InputManager:
     positiveButton: right
     altNegativeButton: 
     altPositiveButton: 
+<<<<<<< HEAD
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
+=======
 >>>>>>> parent of 48fd9da (Plantilla Proyecto)
     gravity: 1000
     dead: 0.001
@@ -448,8 +454,11 @@ InputManager:
     axis: 0
     joyNum: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_UsePhysicalKeys: 1
 =======
+=======
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
   - serializedVersion: 3
     m_Name: Debug Vertical
     descriptiveName: 
@@ -498,4 +507,7 @@ InputManager:
     type: 2
     axis: 5
     joyNum: 0
+<<<<<<< HEAD
+>>>>>>> parent of 48fd9da (Plantilla Proyecto)
+=======
 >>>>>>> parent of 48fd9da (Plantilla Proyecto)
