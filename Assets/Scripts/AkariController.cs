@@ -17,11 +17,13 @@ public class AkariController : MonoBehaviour
 
     private ThirdPersonController thirdPersonController;
     private PlayerTPAssetsInputs playerTPAssetsInputs;
+    private Animator animator;
 
     private void Awake() 
     {
         thirdPersonController = GetComponent<ThirdPersonController>();
         playerTPAssetsInputs = GetComponent<PlayerTPAssetsInputs>();
+        animator = GetComponent<Animator>();
     }
     
     private void Update() 
@@ -41,6 +43,7 @@ public class AkariController : MonoBehaviour
             aimCamera.gameObject.SetActive(true);
             thirdPersonController.SetSensitivity(aimSensitivity);
             thirdPersonController.SetRotateOnMove(false);
+            animator.SetLayerWeight(1, Mathf.Lerp(animator.GetLayerWeight(1), 1f, Time.deltaTime * 10f));
 
             Vector3 worldAimTarget = mouseWorldPosition;
             worldAimTarget.y = transform.position.y;
@@ -54,6 +57,7 @@ public class AkariController : MonoBehaviour
             aimCamera.gameObject.SetActive(false);
             thirdPersonController.SetSensitivity(normalSensitivity);
             thirdPersonController.SetRotateOnMove(true);
+            animator.SetLayerWeight(1, Mathf.Lerp(animator.GetLayerWeight(1), 0f, Time.deltaTime * 10f));
         
         }
 
